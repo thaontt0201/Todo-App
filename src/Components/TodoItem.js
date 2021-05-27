@@ -13,7 +13,7 @@ const TodoItem = ({ item }) => {
       />
       <label className={item.done ? "checkboxText" : ""}>{item.name}</label>
       <button className="deleteButton" onClick={() => deleteButton(item.id)}>
-        X
+        &#10006;
       </button>
     </div>
   );
