@@ -1,0 +1,91 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+  margin-left: 10%;
+}
+.TodoForm {
+  margin-bottom: 20px;
+}
+.TodoItem {
+  margin: 10px;
+  margin-right: 55%;
+}
+.TodoList {
+  margin: 5px;
+}
+.deleteButton {
+  float: right;
+  background-color: #c67053;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.inputItem {
+  padding: 0.25em 27% 0.25em 0em;
+  text-align: left;
+}
+.toggleButton {
+  background-color: #008cba;
+  color: white;
+  border-radius: 4px;
+  padding: 0.5em;
+  border: none;
+  margin: 1em;
+  cursor: pointer;
+}
+.filterButtons {
+  margin: 8px;
+}
+
+.marginRight {
+  margin-right: 3%;
+}
+.filterButton {
+  padding: 8px 32px;
+  border-radius: 4px;
+  text-align: center;
+  background-color: white;
+  border: #e7e7e7 solid;
+  cursor: pointer;
+}
+.allButton {
+  background-color: #4caf50;
+  color: white;
+}
+.checkboxText {
+  color: grey;
+}
+
+@media screen and (max-width: 320px) {
+  .TodoItem {
+    width: 70%;
+    margin: 10px;
+    margin-right: 25%;
+  }
+  .deleteButton {
+    float: right;
+    background-color: #c67053;
+    color: white;
+    border-radius: 4px;
+  }
+  .inputItem {
+    margin-top: 5px;
+    padding: 0.25em 14% 0.25em 0em;
+  }
+  .marginRight {
+    margin-right: 2%;
+  }
+  .filterButton {
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: white;
+    border: #e7e7e7 solid;
+    cursor: pointer;
+  }
+  .allButton {
+    background-color: #4caf50;
+    color: white;
+  }
+}
