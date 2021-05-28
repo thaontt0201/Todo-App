@@ -14,6 +14,9 @@ const App = () => {
 
   const addItem = (event) => {
     event.preventDefault();
+    if (newItem === "") {
+      return window.alert("please enter todo name");
+    }
     const itemObject = {
       name: newItem,
       done: false,
